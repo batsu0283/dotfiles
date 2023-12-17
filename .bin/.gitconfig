@@ -1,0 +1,17 @@
+[user]
+	name = batsu0283
+	email = 58724670+batsu0283@users.noreply.github.com
+[credential]
+	helper = store
+[core "auto"]
+	crlf = false
+[core]
+	pager = LESSCHARSET=utf-8 less
+	quotepath = false
+	editor = vi
+[includeIf "gitdir:~/work/**"]
+  path = ~/.gitconfig_work
+[merge]
+	ff = false
+[pull]
+	ff = only
